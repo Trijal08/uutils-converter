@@ -19,9 +19,9 @@
 Name:           coreutils
 Version:        9999.99.99
 Release:        0
-Summary:        Empty package to make zypper think GNU coreutils is installed if you use uutils
+Summary:        Dummy package to make a package manager think GNU coreutils is installed if you choose to use uutils coreutils instead
 License:        MIT
-URL:            https://luana.dev.br/
+URL:            https://github.com/Trijal08/uutils-converter/
 Source0:        %{name}-%{version}.tar.gz
 BuildArch:      noarch
 
@@ -268,7 +268,7 @@ Provides:       /bin/yes
      
 
 %description
-Empty package to make zypper think GNU coreutils is installed if you use uutils
+Dummy package to make a package manager think GNU coreutils is installed if you choose to use uutils coreutils instead
 
 %prep
 %setup -q
@@ -277,11 +277,10 @@ Empty package to make zypper think GNU coreutils is installed if you use uutils
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/tmp
 cp %{name} $RPM_BUILD_ROOT/tmp
-echo haha goodbye gnu
 
 %files
 /tmp/%{name}
 
 %changelog
-* Sat Sep  30 2023 Luana Neder <luana@luana.dev.br> - 9999.99.99
+* Mon Mar  17 2025 Trijal Saha <trijal.saha@proton.me> - 9999.99.99
 - First version being packaged
