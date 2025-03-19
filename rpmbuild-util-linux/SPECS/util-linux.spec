@@ -41,6 +41,8 @@ Provides:       /usr/bin/lslocks
 Provides:       /bin/lslocks
 Provides:       /usr/bin/lsmem
 Provides:       /bin/lsmem
+Provides:       /usr/bin/mcookie
+Provides:       /bin/mcookie
 Provides:       /usr/bin/mesg
 Provides:       /bin/mesg
 Provides:       /usr/bin/mountpoint
