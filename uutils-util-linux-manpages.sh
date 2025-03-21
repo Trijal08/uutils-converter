@@ -1,4 +1,4 @@
-commandsuu="blockdev ctrlaltdel dmesg fsfreeze last lscpu lslocks lsmem mcookie mesg mountpoint renice rev setsid"
+commandsuu="blockdev chcpu ctrlaltdel dmesg fsfreeze last lscpu lslocks lsmem mcookie mesg mountpoint renice rev setsid"
 
 for i in $commandsuu; do
 	# Check if the directory exists

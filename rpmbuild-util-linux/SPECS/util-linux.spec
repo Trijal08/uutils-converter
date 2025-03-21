@@ -27,6 +27,8 @@ BuildArch:      noarch
 
 Provides:       /usr/bin/blockdev
 Provides:       /bin/blockdev
+Provides:       /usr/bin/chcpu
+Provides:       /bin/chcpu
 Provides:       /usr/bin/ctrlaltdel
 Provides:       /bin/ctrlaltdel
 Provides:       /usr/bin/dmesg
