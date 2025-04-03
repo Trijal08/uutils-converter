@@ -9,7 +9,7 @@
 # Only reboot AFTER running this after you remove util-linux with rpm.
 # Remember to install the empty .deb/.rpm util-linux metapackage with your designated package manager and then versionlock util-linux.
 
-commandsuu="blockdev chcpu ctrlaltdel dmesg fsfreeze last lscpu lslocks lsmem mcookie mesg mountpoint renice rev setsid"
+commandsuu="blockdev chcpu ctrlaltdel dmesg fsfreeze last lscpu lsipc lslocks lsmem mcookie mesg mountpoint renice rev setsid"
 
 for i in $commandsuu; do
 	rm -f /usr/bin/$i

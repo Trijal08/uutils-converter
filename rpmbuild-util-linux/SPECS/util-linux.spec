@@ -39,6 +39,8 @@ Provides:       /usr/bin/last
 Provides:       /bin/last
 Provides:       /usr/bin/lscpu
 Provides:       /bin/lscpu
+Provides:       /usr/bin/lsipc
+Provides:       /bin/lsipc
 Provides:       /usr/bin/lslocks
 Provides:       /bin/lslocks
 Provides:       /usr/bin/lsmem
